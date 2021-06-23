@@ -1,5 +1,5 @@
 INSERT INTO rankings
-    (rankings)
+    (ranking_title)
 VALUES
     ('awesome'),
     ('great'),

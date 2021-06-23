@@ -6,5 +6,5 @@ CREATE TABLE rankings (
 CREATE TABLE topics (
     id serial primary key,
     topic_name text NOT NULL,
-    topic_score integer REFRENCES rankings(id)
+    topic_score integer REFERENCES rankings(id) on delete cascade
 );
