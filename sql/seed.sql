@@ -1,19 +1,19 @@
 INSERT INTO rankings
     (rankings)
 VALUES
-('html'),
-('css'),
-('javascript'),
-('postgressql'),
-('node'),
-('express');
+    ('awesome'),
+    ('great'),
+    ('good'),
+    ('okay'),
+    ('poor'),
+    ('unranked');
 
 INSERT INTO topics
     (topic_name, topic_score)
 VALUES
-    ('awesome', 5),
-    ('great', 4),
-    ('good', 3),
-    ('okay', 2),
-    ('poor', 1),
-    ('unranked', 0);
+('html', 6),
+('css', 6),
+('javascript', 6),
+('postgressql', 6),
+('node', 6),
+('express', 6);
